@@ -81,15 +81,17 @@
 
 body, html {
     height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .hero-image {
-  background-image: url("hero.jpg");
-    height: 50%;
+  background-image: url("./images/hero.jpg");
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    /* position: relative; */
 }
 
 .hero-text {
@@ -99,3 +101,4 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
