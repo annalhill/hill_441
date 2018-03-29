@@ -25,4 +25,7 @@ As per the first steps of this homework, I believe this screenshot demonstrates 
 - These tags allow you to write Javascript within your HTML documents
 - In the index.html document that I have set up, I am calling in the script.js document and anything that is in it (similar to how we link in CSS documents)
 - Otherwise, you could also take the script tags and write your javascript commands directly into the document
-s
+
+
+#### Reading:
+Introduction Chapter
