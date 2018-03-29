@@ -17,8 +17,11 @@ the correct output occurs.
 // These 3 stataments should print out the 3 basic data types you learned about this week.
 // (i.e. `number`, `string`, `boolean`)
 
-
-
+console.log( typeof 10);
+console.log( typeof "n");
+console.log( typeof 3 > 2);
+console.log (typeof false || false);
+console.log (typeof true || true);
 
 
 /**************************************************/
