@@ -45,9 +45,28 @@ console.log( typeof 1);
   - Ternary: operates on three values including ! and :
     - Conditional operator
     - true spits out the middle values
-    - false picks the right values 
+    - false picks the right values
 
 ```
 console.log(true ? 1 : 2);
 // returns 1
 ```
+
+5. Loops for Days
+  - loops generally involve variables which can be called in by var
+  - You can use .length to tell the function to show the number of characters used in the ""
+
+```
+var nameThatWillBeUsedInEquation = "valueThatItEquals";
+
+console.log(nameThatWillBeUsedInEquation.length);
+console.log(nameThatWillBeUsedInEquation + 10 .length);
+```
+
+  - looping a Triangle: Same as above, simply use the initial variable and include it as a shortcut throughout the triangle equation
+  - FizzBuzz: Prints out numbers 1- 100
+    - Excludes numbers divisible by 3 (this should print "Fizz")
+    - Excludes numbers divisible by 5, and not 3 (this should print out "buzz")
+  - Chess Board:
+    - Represents an 8x8 grid
+    - size = 8 to change the grid once you have it working (must work for any size)
