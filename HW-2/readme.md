@@ -1,7 +1,7 @@
 ## Week Two, HW-2
 ## Hill, MART 441
 
-[link to HW-2 Webpage]()
+[link to HW-2 Webpage](https://annalhill.github.io/hill_441/HW-2/main.html)
 
 #### Notes:
 
