@@ -1,6 +1,8 @@
 ## Week Two, HW-2
 ## Hill, MART 441
 
+[link to HW-2 Webpage]()
+
 #### Notes:
 
 [MART 341](https://montana-media-arts.github.io/mart341-webDev/) - Use as a reference for HTML and CSS
@@ -23,3 +25,4 @@ As per the first steps of this homework, I believe this screenshot demonstrates 
 - These tags allow you to write Javascript within your HTML documents
 - In the index.html document that I have set up, I am calling in the script.js document and anything that is in it (similar to how we link in CSS documents)
 - Otherwise, you could also take the script tags and write your javascript commands directly into the document
+s
