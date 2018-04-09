@@ -31,11 +31,18 @@ the correct output occurs.
 //
 // Your code goes here
 
+//function squarePrintFuncDef (x){
+//  return x * 2;
+//}
+
+//squarePrintFuncExpress function (y){
+//  return y + 1;
+//}
 
 
 // Function Calls - DO NOT ALTER
-squarePrintFuncDef( 2 );
-squarePrintFuncExpress( 2 );
+//squarePrintFuncDef( 2 );
+//squarePrintFuncExpress( 2 );
 
 
 
@@ -49,8 +56,13 @@ squarePrintFuncExpress( 2 );
 
 // Your code here.
 
+function min (x, y) {
+  if (x < y){
+  return x;
+}
+  else return y;
 
-
+}
 
 // Function Calls - DO NOT ALTER
 console.log( min(0, 10) );
@@ -71,6 +83,19 @@ console.log( min(0, -10) );
 // Your program should output something like the following;
 
 // Your code here.
+
+function countChar (string, letter){
+  var val1 = 0;
+  for(var i = 0; i < string.length; i += 1){  // < string.length was in the hints or else I probably would have been lost for a lot longer than I was
+  if(string[i] === letter){
+    val1 += 1;
+
+  }
+}
+
+return val1;
+
+}
 
 
 
@@ -93,10 +118,30 @@ console.log( countChar("michael", "M") );
 //
 // Finally, write a sum function ( 'sum()' ) that takes an array of numbers and returns the sum of these numbers.
 
+// key: = equal to, >= less than or equal to, <= greater than or equal to, += plus than or equal to (aka, x = x + y)
+
+
 
 // Your code here.
+let a = [];
 
+function range(min, max){
+  for (let i = min, i >= min, i <= min, a.push (i)) {
+      (let i = max, i >= max, i <= max, a.push (i));
 
+  }
+return a;
+}
+
+function sum(a){
+  let result = 0
+
+  for (let val of a){
+    result +- val
+  }
+
+return result;
+}
 
 
 // Function Calls - DO NOT ALTER
