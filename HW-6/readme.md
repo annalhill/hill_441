@@ -1,4 +1,11 @@
-## Week Six, HW-6
-## Hill, MART 441
+# HW-6 Readme for Anna Hill
 
-[link to HW-6 Webpage](https://annalhill.github.io/hill_441/HW-6/main.html)
+(Link to Live Site)[https://annalhill.github.io/hill_441/HW-6/index.html]
+
+#### Readings
+
+
+#### Notes
+
+
+#### Process
