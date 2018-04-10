@@ -31,18 +31,23 @@ the correct output occurs.
 //
 // Your code goes here
 
-//function squarePrintFuncDef (x){
-//  return x * 2;
-//}
 
-//squarePrintFuncExpress function (y){
-//  return y + 1;
-//}
+const squarePrintFuncDef = function(x) {
+  return x * x;
+};
 
+console.log("result:", squarePrintFuncDef(2));
+
+var squarePrintFuncExpress = function(x) {
+  return x * x; };
+
+var x = squarePrintFuncExpress(2);
+
+console.log("result:", squarePrintFuncExpress(2));
 
 // Function Calls - DO NOT ALTER
-//squarePrintFuncDef( 2 );
-//squarePrintFuncExpress( 2 );
+squarePrintFuncDef( 2 );
+squarePrintFuncExpress( 2 );
 
 
 
@@ -123,12 +128,11 @@ console.log( countChar("michael", "M") );
 
 
 // Your code here.
-let a = [];
 
 function range(min, max){
-  for (let i = min, i >= min, i <= min, a.push (i)) {
-      (let i = max, i >= max, i <= max, a.push (i));
-
+  let a = [];
+  for (let i = min; i <= max; i++){
+    a.push(i);
   }
 return a;
 }
@@ -165,7 +169,10 @@ console.log( sum(range(1, 10)) );
 // When defining the function, you may use a regular loop to do the actual looping.
 
 // Your code here.
-
+function loop (w, x, y, z){
+  for ( let val = w; x(val); val = y(val))
+  z(val);
+}
 
 // Function Calls - DO NOT ALTER
 loop(3, n => n > 0, n => n - 1, console.log);
