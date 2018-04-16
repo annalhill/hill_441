@@ -25,6 +25,29 @@ the correct output occurs.
 
 
 // Your code here.
+class Vec {
+constructor(x, y){
+  this.x = x;
+  this.y = y;
+}
+plus (otherVec) {
+  let tempX = this.x + otherVec.x;
+  let tempY = this.y + otherVec.y;
+
+  return new Vec (tempX, tempY);
+}
+minus (otherVec) {
+  let tempX = this.x - otherVec.x;
+  let tempY = this.y - otherVec.y;
+
+  return new Vec (tempX, tempY);
+}
+get length (){
+  return Math.sqrt( (this.x*this.x) + (this.y*this.y) );
+}
+
+}
+
 
 
 // Function Calls - DO NOT ALTER
@@ -49,6 +72,31 @@ console.log(new Vec(3, 4).length);
 
 class Group {
   // Your code here.
+  constructor(){
+    this.array = [];
+
+  }
+  add(val){
+    if ( !this.array.includes(val) ){
+      this.array.push(val);
+    }
+  }
+  delete(val){
+    let idx = this.array.indexOf(val);
+    if ( idx != -1){
+      this.array.splice (idx, 1);
+    }
+  }
+  has(val){
+    return this.array.includes (val);
+  }
+  static from(vals){
+    let obj = new Group();
+    for (let i= vals[0] ; i <= vals[1]; i++ ){
+      obj.add (i);
+    }
+    return obj;
+  }
 }
 
 // Function Calls - DO NOT ALTER
