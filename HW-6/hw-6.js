@@ -29,41 +29,40 @@ To begin, you should select the body element from the DOM, then remove its exist
 
 body.style.background = "rgb(230, 230, 250)";
 
-var myPic = new Image(1424 × 2131); // Original Dimensions: 2848 × 4272
-myPic.src = "images/myfamily.jpeg"
-
 let body = document.body;
 body.innerText = "";
 
-let elmnt = document.createElement("div");
-let elmnt1 = document.createElement("h1");
-let elmnt2 = document.createElement("h2");
-let elmnt3 = document.createElement("p");
-let elmnt4 = document.createElement("p");
-let elmnt5 = document.createElement("p");
+let e = document.createElement("div");
+let e1 = document.createElement("h1");
+let e2 = document.createElement("h2");
+let e3 = document.createElement("p");
+let e4 = document.createElement("p");
+let e5 = document.createElement("p");
 
-elmnt1.innerText = "Anna Louise Hill";
-elmnt2.innerText = "Homework 6 Coming in VERY late, I am really sorry"
-elmnt3.innerText = "I am not a fan of this class but I am sure it will be useful later in on my life of coding and web design"
-elmnt4.innerText = "Photography is a passion of mine although I am not very good";
-elmnt5.innerText = "Take a look at the gallery on my portfolio website!";
+e1.innerText = "Anna Louise Hill";
+e2.innerText = "Homework 6 Coming in VERY late, I am really sorry"
+e3.innerText = "I am not a fan of this class but I am sure it will be useful later in on my life of coding and web design"
+e4.innerText = "Photography is a passion of mine although I am not very good at it.";
+e5.innerText = "Take a look at the gallery on my portfolio website!";
 
-elmnt.setAttribute("style", "text-align: center");
-elmnt1.setAttribute("style","padding:0.5em; margin:0; font-family: american-typewriter; text-align:left; color:#939598");
-elmnt2.setAttribute("style","padding:0em; margin:0; font-weight: normal; font-family: american-typewriter; text-align:left; color:#185c55");
-elmnt3.setAttribute("style","padding:2em; margin:0; font-family: american-typewriter; text-align:left; color:#185c55");
-elmnt4.setAttribute("style","padding:0em; margin:0; font-family: american-typewriter; text-align:left; color:#185c55");
-elmnt5.setAttribute("href", "http://www.annalouisehill.com");
-elmnt5.setAttribute("style", "font-family: american-typewriter; text-decoration: none; color:#fed8a6; border-style: outset");
+e.setAttribute("style", "text-align: center");
+e1.setAttribute("style","padding:0.5em; margin:0; font-family: american-typewriter; text-align:left; color:#939598");
+e2.setAttribute("style","padding:0em; margin:0; font-weight: normal; font-family: american-typewriter; text-align:left; color:#185c55");
+e3.setAttribute("style","padding:2em; margin:0; font-family: american-typewriter; text-align:left; color:#185c55");
+e4.setAttribute("style","padding:0em; margin:0; font-family: american-typewriter; text-align:left; color:#185c55");
+e5.setAttribute("href", "http://www.annalouisehill.com");
+e5.setAttribute("style", "font-family: american-typewriter; text-decoration: none; color:#fed8a6; border-style: outset");
 
+var myPic = new Image(1424 × 2131); // Original Dimensions: 2848 × 4272
+myPic.src = "images/myfamily.jpeg"
 
 myPic.setAttribute("style", "padding:0em; margin:100px");
 
-elmnt.appendChild(elmnt1);
-elmnt.appendChild(elmnt2);
-elmnt.appendChild(elmnt3);
-elmnt.appendChild(elmnt4);
-elmnt.appendChild(myPic);
-elmnt.appendChild(elmnt5);
+e.appendChild(e1);
+e.appendChild(e2);
+e.appendChild(e3);
+e.appendChild(e4);
+e.appendChild(e5);
+e.appendChild(myPic);
 
-body.appendChild(elmnt);
+body.appendChild(e);
