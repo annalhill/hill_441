@@ -27,10 +27,10 @@ To begin, you should select the body element from the DOM, then remove its exist
 
 */
 
-body.style.background = "rgb(230, 230, 250)";
 
 let body = document.body;
 body.innerText = "";
+body.style.background = "rgb(230, 230, 250)";
 
 let e = document.createElement("div");
 let e1 = document.createElement("h1");
@@ -46,15 +46,16 @@ e4.innerText = "Photography is a passion of mine although I am not very good at 
 e5.innerText = "Take a look at the gallery on my portfolio website!";
 
 e.setAttribute("style", "text-align: center");
-e1.setAttribute("style","padding:0.5em; margin:0; font-family: american-typewriter; text-align:left; color:#939598");
+e1.setAttribute("style","padding:0em; margin:0; font-family: american-typewriter; text-align:left; color:#939598");
 e2.setAttribute("style","padding:0em; margin:0; font-weight: normal; font-family: american-typewriter; text-align:left; color:#185c55");
-e3.setAttribute("style","padding:2em; margin:0; font-family: american-typewriter; text-align:left; color:#185c55");
+e3.setAttribute("style","padding:0em; margin:0; font-family: american-typewriter; text-align:left; color:#185c55");
 e4.setAttribute("style","padding:0em; margin:0; font-family: american-typewriter; text-align:left; color:#185c55");
-e5.setAttribute("href", "http://www.annalouisehill.com");
-e5.setAttribute("style", "font-family: american-typewriter; text-decoration: none; color:#fed8a6; border-style: outset");
 
-var myPic = new Image(1424 × 2131); // Original Dimensions: 2848 × 4272
-myPic.src = "images/myfamily.jpeg"
+e5.setAttribute("style", "font-family: american-typewriter; text-decoration: none; color:#185c55; border-style: outset");
+e5.setAttribute("href", "http://www.annalouisehill.com");
+
+var myPic = new Image(1424, 2131); // Original Dimensions: 2848 × 4272
+myPic.src = "./images/myfamily.jpg"
 
 myPic.setAttribute("style", "padding:0em; margin:100px");
 
