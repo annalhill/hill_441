@@ -1,0 +1,80 @@
+body, html {
+  background-color: #ffd394;
+  height: 100%;
+}
+
+h1{
+  text-align: center;
+}
+
+p2{
+  font-size: 25px;
+  color: #ffd394;
+  column-span: all;
+}
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  /* display: flex;
+  flex-wrap: wrap; */
+  text-align: center;
+}
+
+.container1{
+  /* display: flex;
+  flex-wrap: wrap; */
+  text-align: center;
+}
+
+.container2{
+  /* display: flex;
+  flex-wrap: wrap; */
+  text-align: center;
+}
+
+
+.parallax {
+    /* The image used */
+    background-image: url("./images/topo.jpg");
+    color: white;
+
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-width: 1px
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+  margin: 1rem;
+  border: 1px solid gray;
+}
+
+@media screen and (min-width: 600px) {
+  .card {
+    flex: 1 1 calc(50% - 2rem);
+
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .card {
+    flex: 1 1 calc(33% - 2rem);
+  }
+}
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
