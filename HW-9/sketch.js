@@ -11,7 +11,7 @@ app.appendChild(container);
 
 var request = new XMLHttpRequest();
 // How do I get permission to use the sites API??!!
-request.open('GET', 'https://www.nationalpark-adventures.com/united-states-national-parks.html', true);
+request.open('GET', 'http://www.nps.gov/npmap/support/library/api/', true);
 request.onload = function () {
 
   // Begin accessing JSON data here
@@ -40,3 +40,40 @@ request.onload = function () {
 }
 
 request.send();
+
+// $(document).ready(function() {
+//
+//     var data = {
+//         parks: "",
+//
+//         setMap: function(value) {
+//             data.Parks = value;
+//             $('#parks').val(value);
+//         },
+//
+//         populateMap: function() {
+//             $('#parks-output').html(data.parks);
+//         },
+//
+//         clearInput: function() {
+//             data.setParks('');
+//
+//         }
+//     }
+//
+//     $('#parks').change(function() {
+//         data.setParks($(this).val());
+//     });
+//
+//     $('#submit-parks').on('click', function() {
+//         $.getJSON('https://www.google.com/maps/embed/v1/place?key'+data.parks+'/'+data.map, function(result) {
+//             data.setParks(result.parks.replace(/\n/g, "<br>"));
+//             data.populateMap();
+//         });
+//     });
+//
+//     $('#clear-button').on('click', function() {
+//         data.clearInput();
+//     });
+//
+// });
