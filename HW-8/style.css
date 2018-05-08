@@ -7,6 +7,11 @@ h1{
   text-align: center;
 }
 
+h2{
+  text-align: center;
+  font-size: 15px;
+}
+
 p2{
   font-size: 25px;
   color: #ffd394;
@@ -27,6 +32,7 @@ p2{
 .container1{
   /* display: flex;
   flex-wrap: wrap; */
+  font-size: 20px;
   text-align: center;
 }
 
@@ -41,6 +47,25 @@ p2{
     /* The image used */
     background-image: url("./images/topo.jpg");
     color: white;
+
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-width: 1px
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-color: #F5FFFA;
+    color: grey;
 
     column-count: 3;
     column-gap: 40px;
