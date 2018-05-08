@@ -10,6 +10,7 @@ app.appendChild(logo);
 app.appendChild(container);
 
 var request = new XMLHttpRequest();
+// How do I get permission to use the sites API??!!
 request.open('GET', 'https://www.nationalpark-adventures.com/united-states-national-parks.html', true);
 request.onload = function () {
 
