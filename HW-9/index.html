@@ -5,6 +5,10 @@
   <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="p5_lib/p5.min.js"></script>
+
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=places"></script> -->
+
+
   <!-- <script src="p5_lib/p5.dom.min.js"></script> -->
   <!-- <script src="p5_lib/p5.sound.min.js"></script> -->
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
@@ -114,6 +118,10 @@
     <input id="searchtext" type="text" placeholder="Find your happy place...">
     <button id="searchgifs" type="submit" onclick="getData()">search national parks</button>
   </div>
+
+
+<input id="pac-input" class="controls" type="text" placeholder="Search Box">
+<div class="container" id="map-canvas" style="height:300px;"></div>
 
   <div class="parallax2">
     <h2> Don't miss out on traveling to the best National Parks in the USA! </h2>

@@ -1,0 +1,106 @@
+{
+  "objectIdFieldName": "OBJECTID",
+  "globalIdFieldName": "",
+  "geometryType": "esriGeometryPolygon",
+  "spatialReference": {
+    "wkid": 4326,
+    "latestWkid": 4326
+  },
+  "fields": [{
+    "name": "OBJECTID",
+    "type": "esriFieldTypeOID",
+    "alias": "OBJECTID",
+    "sqlType": "sqlTypeOther",
+    "domain": null,
+    "defaultValue": null
+  }, {
+    "name": "UNIT_TYPE",
+    "type": "esriFieldTypeString",
+    "alias": "UNIT_TYPE",
+    "sqlType": "sqlTypeOther",
+    "length": 50,
+    "domain": null,
+    "defaultValue": null
+  }, {
+    "name": "STATE",
+    "type": "esriFieldTypeString",
+    "alias": "STATE",
+    "sqlType": "sqlTypeOther",
+    "length": 2,
+    "domain": null,
+    "defaultValue": null
+  }, {
+    "name": "REGION",
+    "type": "esriFieldTypeString",
+    "alias": "REGION",
+    "sqlType": "sqlTypeOther",
+    "length": 2,
+    "domain": null,
+    "defaultValue": null
+  }, {
+    "name": "UNIT_CODE",
+    "type": "esriFieldTypeString",
+    "alias": "UNIT_CODE",
+    "sqlType": "sqlTypeOther",
+    "length": 16,
+    "domain": null,
+    "defaultValue": null
+  }, {
+    "name": "UNIT_NAME",
+    "type": "esriFieldTypeString",
+    "alias": "UNIT_NAME",
+    "sqlType": "sqlTypeOther",
+    "length": 254,
+    "domain": null,
+    "defaultValue": null
+  }, {
+    "name": "PARKNAME",
+    "type": "esriFieldTypeString",
+    "alias": "PARKNAME",
+    "sqlType": "sqlTypeOther",
+    "length": 254,
+    "domain": null,
+    "defaultValue": null
+  }],
+  "features": [{
+    "attributes": {
+      "OBJECTID": 16096,
+      "UNIT_TYPE": "National Monument",
+      "STATE": "MT",
+      "REGION": "IM",
+      "UNIT_CODE": "LIBI",
+      "UNIT_NAME": "Little Bighorn Battlefield National Monument",
+      "PARKNAME": "Little Bighorn Battlefield"
+    }
+  }, {
+    "attributes": {
+      "OBJECTID": 16334,
+      "UNIT_TYPE": "National Battlefield",
+      "STATE": "MT",
+      "REGION": "PW",
+      "UNIT_CODE": "BIHO",
+      "UNIT_NAME": "Big Hole National Battlefield",
+      "PARKNAME": "Big Hole"
+    }
+  }, {
+    "attributes": {
+      "OBJECTID": 16433,
+      "UNIT_TYPE": "National Park",
+      "STATE": "MT",
+      "REGION": "IM",
+      "UNIT_CODE": "GLAC",
+      "UNIT_NAME": "Glacier National Park",
+      "PARKNAME": "Glacier"
+    }
+  }, {
+    "attributes": {
+      "OBJECTID": 16439,
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "MT",
+      "REGION": "IM",
+      "UNIT_CODE": "GRKO",
+      "UNIT_NAME": "Grant-Kohrs Ranch National Historic Site",
+      "PARKNAME": "Grant-Kohrs Ranch"
+    }
+  }]
+}
