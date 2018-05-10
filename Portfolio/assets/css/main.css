@@ -2988,17 +2988,18 @@
 
 		.spotlight.top .content, .spotlight.bottom .content {
 			left: 0;
-			padding: 5.1em 0 3.1em 0;
+			padding: 8.1em 0 5.1em 0;
+			background: #185c55;
 			width: 100%;
 		}
 
 		.spotlight.top .content {
-			border-bottom-width: 0.35em;
+			border-bottom-width: 2em;
 			top: 0;
 		}
 
 		.spotlight.bottom .content {
-			border-top-width: 0.35em;
+			border-top-width: .35em;
 			bottom: 0;
 		}
 
@@ -3010,25 +3011,25 @@
 		}
 
 		.spotlight.left .content {
-			border-right-width: 0.35em;
+			border-right-width: 2em;
 			left: 0;
 		}
 
 		.spotlight.right .content {
-			border-left-width: 0.35em;
+			border-left-width: 2em;
 			right: 0;
 		}
 
-		.spotlight.style1 .content {
-			border-color: #e44c65;
-		}
+		/* .spotlight.style1 .content {
+			border-color: #fed8a6;
+		} */
 
 		.spotlight.style2 .content {
-			border-color: #5480f1;
+			border-color: #fed8a6;
 		}
 
 		.spotlight.style3 .content {
-			border-color: #39c088;
+			border-color: #fed8a6;
 		}
 
 		.spotlight.inactive .content {
@@ -3082,7 +3083,7 @@
 	}
 
 		.wrapper.style2 {
-			background: #e44c65;
+			background: #185c55;
 		}
 
 			.wrapper.style2 input[type="text"]:focus,
